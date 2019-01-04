@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45351" started-at="2018-08-14T05:36:24Z" finished-at="2018-08-14T05:37:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45351" started-at="2018-08-14T05:36:24Z" finished-at="2018-08-14T05:37:09Z">
+      <class name="mercurryTools.mavenmercurytools.mercurytools1">
+        <test-method status="PASS" signature="openbrowser()[pri:1, instance:mercurryTools.mavenmercurytools.mercurytools1@198378d]" name="openbrowser" duration-ms="22781" started-at="2018-08-14T05:36:24Z" finished-at="2018-08-14T05:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="EnterApplication()[pri:2, instance:mercurryTools.mavenmercurytools.mercurytools1@198378d]" name="EnterApplication" duration-ms="5254" started-at="2018-08-14T05:36:46Z" finished-at="2018-08-14T05:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterApplication -->
+        <test-method status="PASS" signature="maximizebrowser()[pri:3, instance:mercurryTools.mavenmercurytools.mercurytools1@198378d]" name="maximizebrowser" duration-ms="1231" started-at="2018-08-14T05:36:52Z" finished-at="2018-08-14T05:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizebrowser -->
+        <test-method status="PASS" signature="login()[pri:4, instance:mercurryTools.mavenmercurytools.mercurytools1@198378d]" name="login" duration-ms="15361" started-at="2018-08-14T05:36:53Z" description="verify that user able to enter mercurytours with valid credentials" finished-at="2018-08-14T05:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="invalidLogin()[pri:5, instance:mercurryTools.mavenmercurytools.mercurytools1@198378d]" name="invalidLogin" duration-ms="620" started-at="2018-08-14T05:37:08Z" description="verify that user able to enter mercurytours with valid credentials" finished-at="2018-08-14T05:37:09Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at mercurryTools.mavenmercurytools.mercurytools1.invalidLogin(mercurytools1.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+      </class> <!-- mercurryTools.mavenmercurytools.mercurytools1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
